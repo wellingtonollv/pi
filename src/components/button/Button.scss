@@ -1,0 +1,22 @@
+@import '../config.scss';
+
+.button{
+    padding:15px;
+    border-radius: 5px;
+    background-color: $button-color;
+    outline: none;
+    width: 95px;
+    height: 55px;
+    color:#fff;
+    &:hover{
+        background-color:darken($button-color,10%);
+        transition: background-color 0.5s;
+    }
+
+    >a{
+        color:#fff;
+        text-decoration: none;
+        font-weight: 700;
+        
+    }
+}
